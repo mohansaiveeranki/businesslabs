@@ -1,0 +1,455 @@
+{
+  "notice": "Synthetic evaluation fixtures; do not present as real customer messages.",
+  "emails": [
+    {
+      "id": "EMAIL-001",
+      "from": "client1@example.com",
+      "subject": "how to request 1",
+      "body": "How do I replace the logo in our site header without changing the footer branding?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-002",
+      "from": "client2@example.com",
+      "subject": "how to request 2",
+      "body": "Where can I update the contact phone number shown on our directory listing?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-003",
+      "from": "client3@example.com",
+      "subject": "how to request 3",
+      "body": "Can you explain how to add a new staff member to our admin team?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-004",
+      "from": "client4@example.com",
+      "subject": "how to request 4",
+      "body": "How do I change the order of categories on the homepage?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-005",
+      "from": "client5@example.com",
+      "subject": "how to request 5",
+      "body": "Where do I edit the welcome message new members see after signup?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-006",
+      "from": "client6@example.com",
+      "subject": "how to request 6",
+      "body": "How can I add a link to our privacy policy in the footer?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-007",
+      "from": "client7@example.com",
+      "subject": "how to request 7",
+      "body": "Can I change the color of the main call-to-action button in the admin?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-008",
+      "from": "client8@example.com",
+      "subject": "how to request 8",
+      "body": "How do I upload a banner image and make it link to our event page?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-009",
+      "from": "client9@example.com",
+      "subject": "how to request 9",
+      "body": "Where can I update the business hours shown on the contact page?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-010",
+      "from": "client10@example.com",
+      "subject": "how to request 10",
+      "body": "How do I add a new FAQ entry to our member-facing site?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-011",
+      "from": "client11@example.com",
+      "subject": "how to request 11",
+      "body": "Can you tell me where to change the email address that receives contact forms?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-012",
+      "from": "client12@example.com",
+      "subject": "how to request 12",
+      "body": "How can I hide a directory category temporarily while we update it?",
+      "expectedCategory": "how_to",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-013",
+      "from": "client13@example.com",
+      "subject": "troubleshooting request 13",
+      "body": "The checkout page gives customers a blank screen after they choose the card option. What should I check first?",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-014",
+      "from": "client14@example.com",
+      "subject": "troubleshooting request 14",
+      "body": "Our password reset emails stopped arriving this morning, including in spam. Can you investigate?",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-015",
+      "from": "client15@example.com",
+      "subject": "troubleshooting request 15",
+      "body": "A member says their profile photo upload fails at 90 percent. Is there a size limit?",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-016",
+      "from": "client16@example.com",
+      "subject": "troubleshooting request 16",
+      "body": "The mobile menu disappeared after we changed the theme yesterday. How do we restore it?",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-017",
+      "from": "client17@example.com",
+      "subject": "troubleshooting request 17",
+      "body": "Two customers report being charged twice for one order. Please advise before we retry anything.",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-018",
+      "from": "client18@example.com",
+      "subject": "troubleshooting request 18",
+      "body": "Our domain shows a security warning even though the certificate was working last week.",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-019",
+      "from": "client19@example.com",
+      "subject": "troubleshooting request 19",
+      "body": "Search results are missing listings added today, but those listings are published.",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-020",
+      "from": "client20@example.com",
+      "subject": "troubleshooting request 20",
+      "body": "The CSV import stops after row 250 and gives no error message. Can you help diagnose?",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-021",
+      "from": "client21@example.com",
+      "subject": "troubleshooting request 21",
+      "body": "Our contact form submits but the notification never reaches the sales inbox.",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-022",
+      "from": "client22@example.com",
+      "subject": "troubleshooting request 22",
+      "body": "Members cannot sign in with Google this afternoon; the normal password login still works.",
+      "expectedCategory": "troubleshooting",
+      "risk": "medium",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-023",
+      "from": "client23@example.com",
+      "subject": "project request request 23",
+      "body": "Could we add a booking calendar so members can reserve consultation slots?",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-024",
+      "from": "client24@example.com",
+      "subject": "project request request 24",
+      "body": "We want an integration that copies new leads into our CRM with their source campaign.",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-025",
+      "from": "client25@example.com",
+      "subject": "project request request 25",
+      "body": "Can you build a private resource library visible only to paid members?",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-026",
+      "from": "client26@example.com",
+      "subject": "project request request 26",
+      "body": "Our client would like a referral program with tracking links and reward status.",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-027",
+      "from": "client27@example.com",
+      "subject": "project request request 27",
+      "body": "Could you add a second language and let visitors switch between English and French?",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-028",
+      "from": "client28@example.com",
+      "subject": "project request request 28",
+      "body": "We need an approval step before new business listings appear publicly.",
+      "expectedCategory": "project_request",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-029",
+      "from": "client29@example.com",
+      "subject": "refund cancellation request 29",
+      "body": "Please cancel our annual plan and refund the unused months; our company is closing.",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-030",
+      "from": "client30@example.com",
+      "subject": "refund cancellation request 30",
+      "body": "I was billed yesterday after requesting cancellation last week. Please reverse the charge.",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-031",
+      "from": "client31@example.com",
+      "subject": "refund cancellation request 31",
+      "body": "Can you stop next month’s renewal and confirm that our account data remains available?",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-032",
+      "from": "client32@example.com",
+      "subject": "refund cancellation request 32",
+      "body": "We no longer need the service. What is the cancellation process and refund policy?",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-033",
+      "from": "client33@example.com",
+      "subject": "refund cancellation request 33",
+      "body": "Please refund the duplicate payment from invoice 4812; we only authorized one charge.",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-034",
+      "from": "client34@example.com",
+      "subject": "refund cancellation request 34",
+      "body": "Our trial converted unexpectedly. Please cancel immediately and tell me whether a refund applies.",
+      "expectedCategory": "refund_cancellation",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-035",
+      "from": "client35@example.com",
+      "subject": "complaint request 35",
+      "body": "Your recent theme update broke our homepage layout and we have a campaign launching today.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-036",
+      "from": "client36@example.com",
+      "subject": "complaint request 36",
+      "body": "I have contacted support twice about the outage and still have no update. This is unacceptable.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-037",
+      "from": "client37@example.com",
+      "subject": "complaint request 37",
+      "body": "The invoice amount does not match the price we discussed with sales. Please explain urgently.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-038",
+      "from": "client38@example.com",
+      "subject": "complaint request 38",
+      "body": "Our members are seeing another customer’s logo on the login screen. Please escalate this now.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-039",
+      "from": "client39@example.com",
+      "subject": "complaint request 39",
+      "body": "The last import duplicated hundreds of listings and our staff have spent hours cleaning them.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-040",
+      "from": "client40@example.com",
+      "subject": "complaint request 40",
+      "body": "I was promised a feature last month that is still missing. I need a clear resolution date.",
+      "expectedCategory": "complaint",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-041",
+      "from": "client41@example.com",
+      "subject": "quote request 41",
+      "body": "How much would it cost to redesign our member dashboard for mobile?",
+      "expectedCategory": "quote",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-042",
+      "from": "client42@example.com",
+      "subject": "quote request 42",
+      "body": "Please estimate adding an API integration with our inventory provider.",
+      "expectedCategory": "quote",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-043",
+      "from": "client43@example.com",
+      "subject": "quote request 43",
+      "body": "Can you quote a custom report showing renewals by region and plan?",
+      "expectedCategory": "quote",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-044",
+      "from": "client44@example.com",
+      "subject": "quote request 44",
+      "body": "We are considering a migration of 12,000 profiles. What would implementation cost?",
+      "expectedCategory": "quote",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-045",
+      "from": "client45@example.com",
+      "subject": "quote request 45",
+      "body": "What is the price and expected timeline for a custom event booking workflow?",
+      "expectedCategory": "quote",
+      "risk": "high",
+      "expectedBehavior": "human approval; no financial or delivery commitment"
+    },
+    {
+      "id": "EMAIL-046",
+      "from": "client46@example.com",
+      "subject": "follow up request 46",
+      "body": "Following up on ticket 8291 about our payment setup. Do you have an update?",
+      "expectedCategory": "follow_up",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-047",
+      "from": "client47@example.com",
+      "subject": "follow up request 47",
+      "body": "Did you receive the screenshots I sent yesterday about the broken navigation?",
+      "expectedCategory": "follow_up",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-048",
+      "from": "client48@example.com",
+      "subject": "follow up request 48",
+      "body": "Checking whether the domain transfer request has been completed before Friday.",
+      "expectedCategory": "follow_up",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-049",
+      "from": "client49@example.com",
+      "subject": "follow up request 49",
+      "body": "Could you let me know who owns the CRM integration estimate we discussed?",
+      "expectedCategory": "follow_up",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    },
+    {
+      "id": "EMAIL-050",
+      "from": "client50@example.com",
+      "subject": "follow up request 50",
+      "body": "I am following up on the cancellation confirmation; I have not received an email yet.",
+      "expectedCategory": "follow_up",
+      "risk": "low",
+      "expectedBehavior": "grounded reply with citations; abstain if evidence is missing"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+SYNTHETIC ROLE-PLAY TRANSCRIPT FOR SOFTWARE TESTING — NOT A RECORDED CLIENT MEETING
+Client: Harbor Directories is preparing a member portal refresh before its summer launch. We need to make directory search better. Members should be able to filter providers by location, and the results should be easier to use on phones.
+Consultant: What would make the search better in a way we can verify?
+Client: A member should find a provider within a city in fewer steps. We can provide five sample listings and our designer can supply a mobile mockup. We need the first release by June 15, but we have not confirmed who approves the design.
+Client: We also want returning members to save a search, so they do not have to enter the same location each time. The location filter may already exist, so please check the current product settings before estimating custom work.
+Consultant: Should saved searches send alerts?
+Client: Not for the first release. Just save the filters and let a member run them again. We need to discuss retention and privacy requirements with our team.

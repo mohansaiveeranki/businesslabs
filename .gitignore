@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.env
+data/*.db
+data/*.json
+task2-inbox-agent/data/feedback.jsonl
+data/run/
+data/logs/

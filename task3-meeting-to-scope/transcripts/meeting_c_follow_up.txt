@@ -1,0 +1,5 @@
+SYNTHETIC ROLE-PLAY FOLLOW-UP TRANSCRIPT FOR SOFTWARE TESTING — NOT A RECORDED CLIENT MEETING
+Client: One change since the last discussion: our marketing team now wants email alerts whenever a saved search finds a new provider. We also want an admin export of member search history for campaign targeting.
+Consultant: Were either of those included in the agreed first release?
+Client: No, they are new ideas. Please show them separately and price them only after we decide the retention period and alert frequency. Keep the original search filters and mobile design in the baseline. The June 15 date remains a target and we will not approve it as guaranteed.
+Client: We also decided the postal-code filter is optional for launch. City filtering is the required behavior.

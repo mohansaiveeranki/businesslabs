@@ -1,0 +1,5 @@
+SYNTHETIC ROLE-PLAY TRANSCRIPT FOR SOFTWARE TESTING — NOT A RECORDED CLIENT MEETING
+Client: We reviewed the search refresh. Location should use city and postal code. On mobile, we want the filter button fixed above the results, and the selected filters should remain visible when a member opens a provider and comes back.
+Consultant: Is saved search still in scope?
+Client: Yes, but saved searches should only be available to signed-in members. No email alerts in this phase. We will provide approved mobile designs and test accounts. The June 15 date is still a target, not a contractual commitment.
+Client: Please tell us whether the member access settings already cover saved searches and what privacy review is needed.
